@@ -210,3 +210,4 @@ python 43_final_ensemble.py --run --ver v9 --train data/train_v8r.parquet --test
 * Only the `ADEP|RUNWAY|STAND` target-encoding key was validated; wider key sweeps were not completed.
 * Feb/Jun features are validated indirectly (Jan/Jul parity), not against ground truth.Jan/Jul parity of the final pipeline: corr 0.99989, mean abs diff 0.20 s.
 * The relation between local RMSE and the leaderboard score was not established.
+* ![Taxi-Out Dashboard](gösterge paneli_ekran görüntüsü.png.png)
